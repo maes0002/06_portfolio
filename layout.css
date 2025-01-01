@@ -266,6 +266,7 @@ footer h2 {
   align-items: center;
   gap: 30px;
   margin-bottom: 100px;
+  padding-right: 15px;
 }
 
 .cv {
@@ -285,6 +286,14 @@ footer h2 {
 
 .grid_1-1_cv div {
   border-bottom: 1px solid var(--secondary);
+}
+
+/*----------------------------------------------------------------------*/
+/*----------------------------------------------------------------------*/
+/*-------------------------------*MINE PROJEKTER---------------------------------------*/
+
+.grid_1 {
+  padding: 0px 20px 0px 20px;
 }
 
 @media (min-width: 800px) {
