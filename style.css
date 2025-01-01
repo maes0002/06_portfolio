@@ -20,6 +20,8 @@
 }
 
 /* -----------FONT --------------*/
+
+/* -----------Fra google --------------*/
 .bebas-neue-regular {
   font-family: "Bebas Neue", serif;
   font-weight: 400;
@@ -48,6 +50,7 @@ p {
   font-family: var(--txt_font);
   color: var(--txt_color);
   line-height: 1.5rem;
+  font-size: 1.5rem;
 }
 
 a {
@@ -82,7 +85,21 @@ body {
   background-color: var(--primary);
 }
 
-main {
-  max-width: 1000px;
-  margin: 0 auto;
+.cta a {
+  display: grid;
+  background-color: var(--secondary);
+  color: var(--contrast);
+  width: 15rem;
+  text-align: center;
+  padding: 1em;
+  border-radius: 15px;
+  font-size: 20px;
+  justify-content: center;
+}
+
+.cta :hover {
+  color: var(--secondary);
+  background-color: var(--contrast);
+  border: 3px solid var(--secondary);
+  transition: 0.5s ease;
 }

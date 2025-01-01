@@ -121,14 +121,95 @@ nav.active .menu a {
 
 /* ------------------------GRIDS------------------------------*/
 
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 .grid_1-1 {
   display: grid;
   grid-template-columns: 1fr;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.grid_1-1 div {
+  display: grid;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px;
+}
+
+.grid_1-1-1-1 {
+  text-align: center;
+  gap: 30px;
+  padding: 10px;
+  display: flex; /*Flexbox for bokse ved siden af hinanden*/
+  overflow-x: auto; /* Tilføjer vandret scroll, hvis der ikke er plads til at være ved siden af hinanden */
+}
+
+.scroll_for_more p {
+  /*Justerer størrelsen på teksten med pilen*/
+  font-size: 1em;
+}
+
+/*-----------------------------------------PIlen ved "scroll til siden for mere -----------------*/
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+/*----------------------------------------------------------------------*/
+
+.grid_1-1-1-1 h2 {
+  padding-top: 20px;
+}
+
+.projects {
+  text-align: center;
+}
+
+.mouse_img {
+  width: 60%;
+}
+.projects .cta {
+  display: grid;
+  justify-content: center;
+  padding: 30px;
 }
 
 @media (min-width: 800px) {
   .grid_1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+
+  .grid_1-1-1-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    gap: 20px;
+  }
+
+  .span2_div {
+    grid-column: 1 / span 2;
+  }
+
+  .scroll_for_more {
+    display: none;
   }
 }
