@@ -151,6 +151,9 @@ footer h2 {
   grid-template-columns: 1fr;
   margin-top: 50px;
   margin-bottom: 40px;
+}
+
+.grid_1-1 h1 {
   text-align: center;
 }
 
@@ -190,7 +193,7 @@ footer h2 {
 
 /*-----------------------------------------PIlen ved "scroll til siden for mere -----------------*/
 .arrow {
-  border: solid black;
+  border: solid var(--secondary);
   border-width: 0 3px 3px 0;
   display: inline-block;
   padding: 3px;
@@ -253,6 +256,36 @@ footer h2 {
   justify-content: center;
   gap: 20px;
 }
+/*----------------------------------------------------------------------*/
+/*----------------------------------------------------------------------*/
+/*-------------------------------OM MIG---------------------------------------*/
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 100px;
+}
+
+.cv {
+  margin-top: 7em;
+  margin-bottom: 7em;
+}
+
+.right_sided_text {
+  text-align: end;
+}
+
+.grid_1-1_cv {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 3em 1em 3em 1em;
+}
+
+.grid_1-1_cv div {
+  border-bottom: 1px solid var(--secondary);
+}
 
 @media (min-width: 800px) {
   .grid_1-1 {
@@ -280,4 +313,7 @@ footer h2 {
   .scroll_for_more {
     display: none;
   }
+  /*----------------------------------------------------------------------*/
+  /*----------------------------------------------------------------------*/
+  /*-------------------------------OM MIG---------------------------------------*/
 }

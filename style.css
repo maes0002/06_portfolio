@@ -50,7 +50,7 @@ p {
   font-family: var(--txt_font);
   color: var(--txt_color);
   line-height: 1.5rem;
-  font-size: 1.5rem;
+  font-size: 1em;
 }
 
 a {
