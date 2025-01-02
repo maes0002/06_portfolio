@@ -120,6 +120,28 @@ nav.active .menu a {
   z-index: 1; /* ER nederst men lottie dækker stadig:-(*/
 }
 
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+/* ---------------------------------PIL NED ANIMATION ------------------------------*/
+.bounce {
+  animation: bounce 0.5s infinite alternate;
+}
+
+@keyframes bounce {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-10px);
+  }
+}
+
+.arrow_down {
+  display: grid;
+  justify-content: center;
+}
 /* ------------------------GRIDS------------------------------*/
 
 main {
