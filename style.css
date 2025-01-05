@@ -90,6 +90,16 @@ main {
   margin: 0 auto;
 }
 
+/*-----------------------------------------FORSTØR MED HOVER ANIMATION -----------------*/
+/*https://www.w3schools.com/howto/howto_css_zoom_hover.asp*/
+.cta {
+  transition: transform 0.2s; /* Animation */
+}
+
+.cta:hover {
+  transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
 img {
   width: 100%;
   height: auto;

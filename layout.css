@@ -168,6 +168,16 @@ nav.active .menu a {
   margin: 20px;
 }
 
+.maja_1_text {
+  padding: 0px 10px 0px 10px;
+}
+
+.maja_img_1 {
+  padding: 20px;
+  border-radius: 5%;
+  display: block;
+}
+
 /*------------------------------1-1-1-1----------------------------------------*/
 
 .projects {
@@ -194,15 +204,7 @@ nav.active .menu a {
   justify-content: center;
   padding: 30px;
 }
-/*-----------------------------------------FORSTØR MED HOVER ANIMATION -----------------*/
-/*https://www.w3schools.com/howto/howto_css_zoom_hover.asp*/
-.cta {
-  transition: transform 0.2s; /* Animation */
-}
 
-.cta:hover {
-  transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-}
 /*-----------------------------------------PIlen ved "scroll til siden for mere -----------------*/
 .arrow {
   border: solid var(--secondary);
@@ -372,6 +374,11 @@ nav.active .menu a {
     grid-template-columns: 1fr 1fr;
     margin-top: 100px;
     margin-bottom: 150px;
+  }
+
+  .maja_1_text {
+    padding-top: 100px;
+    padding-bottom: 90px;
   }
 
   .grid_1-1_programs {
