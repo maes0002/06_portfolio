@@ -176,6 +176,8 @@ nav.active .menu a {
   padding: 20px;
   border-radius: 5%;
   display: block;
+  width: 100%;
+  height: auto;
 }
 
 /*------------------------------1-1-1-1----------------------------------------*/
