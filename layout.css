@@ -339,6 +339,10 @@ nav.active .menu a {
   padding: 20px;
 }
 
+.learningsprocesses h2 {
+  margin-bottom: 10px;
+}
+
 .learning_list {
   border: 2px solid var(--secondary);
   border-radius: 10px;
