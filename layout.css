@@ -183,6 +183,7 @@ nav.active .menu a {
 .projects {
   text-align: center;
   border: 2px solid var(--secondary);
+  border-radius: 5%;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -330,6 +331,21 @@ nav.active .menu a {
   margin: 60px 10px 20px 10px;
 }
 
+.learningsprocesses {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  margin: 10px 10px 10px 20px;
+  padding: 20px;
+}
+
+.learning_list {
+  border: 2px solid var(--secondary);
+  border-radius: 10px;
+  padding: 50px 20px 50px 50px;
+  margin: auto; /*Centeret*/
+}
+
 .grid_1-1_projects img {
   object-fit: cover;
   align-self: stretch;
@@ -416,6 +432,17 @@ nav.active .menu a {
     margin-top: 80px;
   }
 
+  .learningsprocesses {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    margin: 10px 10px 10px 20px;
+    padding: 20px;
+  }
+
+  .learning_list {
+    margin: auto;
+  }
   /*----------------------------------------------------------------------*/
   /*----------------------------------------------------------------------*/
   /*-------------------------------projects - PASSION---------------------------------------*/
