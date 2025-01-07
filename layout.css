@@ -121,6 +121,8 @@ nav.active .menu a {
 .hero_animation {
   overflow: hidden; /*har puttet overflow: hidden på. - det gør at alt uden om div'en ikke bliver vist.*/
   z-index: 1; /* ER nederst men lottie dækker stadig:-(*/
+  width: auto;
+  height: auto;
 }
 
 .down {
@@ -153,8 +155,8 @@ nav.active .menu a {
 .grid_1-1 {
   display: grid;
   grid-template-columns: 1fr;
-  margin-top: 50px;
-  margin-bottom: 40px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .grid_1-1 h1 {
@@ -173,10 +175,12 @@ nav.active .menu a {
 }
 
 .maja_img_1 {
+  width: 500;
+  height: 509;
   padding: 20px;
   border-radius: 5%;
   display: block;
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -394,8 +398,8 @@ nav.active .menu a {
   .grid_1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-top: 100px;
-    margin-bottom: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
 
   .maja_1_text {
